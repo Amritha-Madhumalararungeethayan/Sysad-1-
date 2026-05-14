@@ -2,12 +2,14 @@
 
 sudo groupadd -f bashers
 
-for user in $(yq -r '.bashers[].username ' roster.yaml)
+for user in $(yq -r '.roster.bashers[].username ' roster.yaml)
 do
-sudo useradd -m -g  bashers "$user"
-sudo useradd -m -d /home/bashers/$user "$user"
+if ! id "$user" &>/dev/null
+then
+sudo useradd -m -d /home/bashers/$user -g bashers -s /bin/bash "$user"
+echo "created $user"
+fi
 sudo mkdir -p /home/bashers/"$user"/Drop_Zone
-echo " created $user"
 done
 
 

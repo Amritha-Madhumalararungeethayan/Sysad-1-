@@ -1,0 +1,9 @@
+2026-05-13 13:20:16 | brainrot_timmy | 0 | authorized_keys
+2026-05-13 13:20:16 | brainrot_timmy | 0 | .profile
+2026-05-13 13:20:16 | brainrot_timmy | 1 | .avatar.txt
+2026-05-13 13:20:16 | sigma_grinder | 0 | motd.legal-displayed
+2026-05-13 13:20:16 | sigma_grinder | 0 | .motd_shown
+2026-05-13 13:20:17 | sigma_grinder | 0 | authorized_keys
+2026-05-13 13:20:17 | skndash | 0 | motd.legal-displayed
+2026-05-13 13:20:17 | skndash | 0 | .motd_shown
+2026-05-13 13:20:17 | skndash | 0 | known_hosts
